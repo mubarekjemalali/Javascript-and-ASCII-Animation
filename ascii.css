@@ -1,0 +1,48 @@
+.box {
+    width: 100%;
+    margin: auto;
+    background-color: #CCCCFF;
+    text-align: center;
+    height: 100%;
+}
+
+.playground {
+    margin: auto;
+    width: 90%;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+body {
+    font-size: 14pt;
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+.box_div {
+    display: inline-block;
+    margin: auto;
+    padding: 8px;
+    width: 100px;
+    margin-top: 1em;
+    border: 3px solid black;
+}
+
+.box_div h6 {
+    font-size: 14px;
+    display: table;
+    margin: -18px auto 10px auto;
+    background-color: #CCCCFF;
+    font-weight: bold;
+}
+
+#textarea {
+    height: 25em;
+    width: 60em;
+}
+
+.validators {
+    float: right;
+}

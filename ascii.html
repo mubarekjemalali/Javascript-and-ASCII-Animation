@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ascii.css">
+    <title>JS ASCII Animation</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1>CSE 190 M ASCII Animation Viewer</h1>
+        <div class="playground">
+            <textarea id="textarea"></textarea>
+            <div class="contoller">
+                <div class="box_div">
+                    <h6>Play Control :</h6>
+                    <button type="button" id="start">Start</button>
+                    <button type="button" id="stop" disabled>Stop</button>
+                </div>
+                <div class="box_div">
+                    <h6>Animation :</h6>
+                    <select id="animation">
+                        <option value="blank">Blank</option>
+                        <option value="exercise">Exercise</option>
+                        <option value="juggler">Juggler</option>
+                        <option value="bike">Bike</option>
+                        <option value="dive">dive</option>
+                        <option value="custom">Custom</option>
+
+                    </select>
+                </div>
+
+                <div class="box_div ">
+                    <h6>Size :</h6>
+                    <select name="size" id="size">
+                        <option value="7">Tiny </option>
+                        <option value="10">Small </option>
+                        <option value="12" selected>Medium </option>
+                        <option value="16">Large </option>
+                        <option value="24"> Extra Large </option>
+                        <option value="32">XXL </option>
+                    </select>
+                </div>
+                <div class="box_div ">
+                    <h6>Speed :</h6>
+                    <input value="1" id="speed" type="checkbox" />Turbo
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div style="margin-top: 10px; text-align: center; font-size: 9pt; font-family: Verdana; color: rgb(255, 0, 0);">
+
+            <a
+                href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fabdiwjilo.github.io%2FJavascript-and-ASCII-Animation-webpage%2Findex.html">
+                <img alt="link image" src="https://manalabs.org/img/w3c-html.png" />
+            </a>
+            <a
+                href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabdiwjilo.github.io%2FJavascript-and-ASCII-Animation-webpage%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <img alt="link image" src="https://manalabs.org/img/w3c-css.png" />
+            </a>
+
+        </div>
+    </footer>
+
+
+    <script src="animations.js"></script>
+    <script src="ascii.js"></script>
+
+</body>
+
+</html>
